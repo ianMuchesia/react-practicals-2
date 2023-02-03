@@ -1,5 +1,6 @@
 
 import React from 'react'
+import ImageSlider from './ImageSlider'
 
 const App = () => {
   const images=[
@@ -12,7 +13,7 @@ const App = () => {
     
   
   return (
-  <img src="http://localhost:5174/1.png"/>
+  <ImageSlider images={images}/>
   )
 }
 
